@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: #2e1f10;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*APLICANDO O DEGRADE*/
+
+.degrade{
+    background: linear-gradient(to right, #753f2aa1, #422106);
+}
+
+/*ESTILIZANDO O HEADER*/
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    max-width: 120px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+header h1{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(124, 117, 117);
+    font-weight: 200;
+}
+
+section.botoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    transition: .2s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover, footer a.btn-footer:hover{
+    transform: scale(1.05);
+}
+
+/* ESTILIZANDO O FOOTER*/
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer a.btn-footer{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+body div.container header p{
+    font-size: small;
+    color: #5c5858;
+}
+
+footer .copy{
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(112, 108, 108);
+}
+
+footer h5{
+    text-align: center;
+    color: rgb(112, 108, 108);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
